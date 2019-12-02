@@ -1,22 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #110f0f;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+* button {
+  padding: 8px 13px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+* button:hover {
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.img {
+  background-image: url(./img/silver-and-black-laptop-computer-1229861.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  width: 97%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.logo {
+  background-image: url(./img/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 20px;
+  width: 18%;
+}
+
+.header button {
+  justify-content: flex-end;
+}
+
+.main-show {
+  width: 80%;
+  margin: auto;
+  margin-top: 20vh; 
+}
+
+.main-show h1 {
+  color: #fff;
+  line-height: 1.6em;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.links {  
+  display: flex;
+  width: 35%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.links a {
+  font-size: 30px;
+  color: #8a8a8a;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.links a:hover {
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.learn-more {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+  margin-top: 17vh;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.learn-more:hover {
+  color: #8a8a8a;
+}
+
+.fa-angle-down {
+  margin-top: 8px;
+  font-size: 35px;
+}
+
+.about-me {
+  padding-top: 40px;
+  text-align: left;
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr;
+  grid-gap: 1.5em;
+  background: #110f0f;
+  color: white;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.info h1 {
+  margin-bottom: 20px;
+}
+
+.projects h1 {
+  margin-bottom: 25px;
+}
+
+.projects h3 {
+  color: #cacaca;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.dev-tools h1 {
+  margin-bottom: 20px;
+}
+
+.dev-tools p {
+  margin: 5px 0;
+}
+
+.recent-work {
+  padding-top: 30px;
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+  background: #110f0f;
+  color: white;
+}
+
+.react {
+  background-image: url(./img/react-logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 90vh;
+  opacity: 0.8;
+}
+
+.react:hover {
+  transition: 200ms ease;
+  opacity: 1;
 }

@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 function AboutMe() {
-    return (
-        <div>
-        <div className="about-me">
+  return (
+    <div>
+      <div className="about-me">
         <div className="info">
           <h1>
             I'm Mihai, Front-End developer specialized in build User Interfaces.
@@ -13,8 +13,8 @@ function AboutMe() {
             photographer based in Cluj Napoca, future Full Stack Web Developer
             specialized in the MERN stack. Currently spending the bulk of my
             time learning the Front-End technologies: HTML5, CSS3, Java Script
-            and React, slowly transition into Next.js framework for React, but
-            I'm always excited to learn new technologies. I'm ambitious,
+            and React. Slowly transition into Next.js framework for React, but
+            I'm always excited to learn new technologies. I'm an ambitious,
             passionate and motivated person, I can say I'm an autodidact person
             who likes to focus on his personal growth and always improving his
             skills. I'm looking for a team that allows me to perpetually get
@@ -25,8 +25,8 @@ function AboutMe() {
           <h1>What I do:</h1>
           <h3>Front-End</h3>
           <p>
-            Specialized on building good looking UI and vrey good user
-            experiences.
+            Specialised in building good looking UI and very good user
+            experience.
           </p>
 
           <h3>Personal Training</h3>
@@ -37,7 +37,7 @@ function AboutMe() {
 
           <h3>Photography</h3>
           <p>
-            One of my side hustle is portrait photography and street photograpy.
+            One of my side hustles is portrait photography and street photograpy.
           </p>
         </div>
         <div className="dev-tools">
@@ -51,8 +51,8 @@ function AboutMe() {
           <p>Lightroom</p>
         </div>
       </div>
-        </div>
-    )
+    </div>
+  );
 }
 
-export default AboutMe
+export default AboutMe;

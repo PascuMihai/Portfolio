@@ -4,33 +4,19 @@
   box-sizing: border-box;
 }
 
-.react-projects {
-  background: #fff;
+html {
+  display: block;
+  color: -internal-root-color;
+  background: #110f0f;
 }
 
-
-body {
-  background: #110f0f;
+.react-projects {
+  background: grey;
 }
 
 .App {
   text-align: center;
-}
-
-* button {
-  padding: 8px 13px;
-  background-color: transparent;
-  color: #fff;
-  border: 1px solid white;
-  border-radius: 10px;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-* button:hover {
-  color: white;
-  border: 1px solid white;
-  background-color: transparent;
+  background: #110f0f;
 }
 
 .img {

@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+    Garuda, Verdana, Tahoma, sans-serif;
+}
+
+.js {
+  background: #fff;
+  padding-bottom: 37vh; 
+}
+
+.app-exercise {
+  margin-bottom: 40px;
+}
+
+.container-practice {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  background: #f4f4f4;
+  padding: 15px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.body {
+  margin-top: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff;
+  height: 10vh;
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.nav-text {
+  color: #110f0f;
+  display: block;
+  padding-top: 0.6rem;
+}
+
+.container-app {
+  background: #fff;
+}
+
+.container-events {
+  width: 80%;
+  margin: auto;
+}
+
+.add {
+  margin-top: 30px;
+}
+
+.add-text {
+  width: 80%;
+  padding: 0.6em;
+  margin: 5px;
+  font-size: 18px;
+}
+
+.btn-submit {
+  font-size: 1.2rem;
+  color: #110f0f;
+  border-radius: 0;
+  border: 1px solid grey;
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.btn-reset {
+  font-size: 1.2rem;
+  color: #110f0f;
+  border-radius: 0;
+  border: 1px solid grey;
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.btn-events {
+  font-size: 16px;
+  color: #110f0f;
+  border-radius: 0;
+  border: 1px solid grey;
+  padding: 5px 12px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.todos {
+  margin: auto 0px;
+}
+
+.todo {
+  padding: 8px;
+}
+
+.count {
+  display: flex;
+}
+
+.react-events {
+  width: 15%;
+  padding: 8px 16px;
+  font-size: 18px;
+  border: 1px solid black;
+  color: black;
+}
+
+@media (max-width: 700px) {
+  .add {
+    display: flex;
+  }
+
+  .add-text {
+    width: 80%;
+    padding: 0.4em;
+    margin: 5px;
+    font-size: 15px;
+  }
+
+  .btn-submit {
+    font-size: 0.8rem;
+    color: #110f0f;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .btn-reset {
+    font-size: 1rem;
+    color: #110f0f;
+    border-radius: 0;
+    border: 1px solid grey;
+    padding: 10px 15px;
+    margin: 15px;
+    cursor: pointer;
+  }
+
+  .btn-events {
+    font-size: 11px;
+    color: #110f0f;
+    border-radius: 0;
+    border: 1px solid grey;
+    padding: 2px 5px;
+    cursor: pointer;
+  }
+
+  .container-practice {
+    width: 95%;
+  }
+
+  .todos {
+    display: flex;
+    margin: auto;
+    width: 95%;
+  }
+
+  .todo {
+    padding: 0 10px ;
+    font-size: 12px;
+  }
+
+  .js {
+    background: #fff;
+  }
+}

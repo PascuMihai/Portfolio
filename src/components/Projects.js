@@ -6,7 +6,7 @@ function Projects() {
     <div id='projects'>
       <div className="recent-work">
         <Link className="react" to='ReactProjects' />
-        <Link className="java-script" to="/JavaScript" />
+        <Link className="java-script" to="/ReactMenu" />
       </div>
     </div>
   );

@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 function Projects() {
   return (
-    <div id='projects'>
+    <div id="projects">
       <div className="recent-work">
-        <Link className="react" to='ReactProjects' />
-        <Link className="java-script" to="/ReactMenu" />
+        <Link className="game" to="/Game" />
+        <Link className="react" to="/ReactMenu" />
       </div>
     </div>
   );

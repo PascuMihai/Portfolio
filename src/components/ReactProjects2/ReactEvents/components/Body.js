@@ -5,7 +5,7 @@ export class Body extends Component {
   render() {
     return (
       <div className='body'>
-        <button onClick={this.props.handleReset} class="btn-reset"
+        <button onClick={this.props.handleReset} className="btn-reset"
         style={{background: 'yellow'}}
         >
           Reset
@@ -16,9 +16,10 @@ export class Body extends Component {
             text={text}
             handleCheck={() => this.props.handleCheck(text.id)}
             handleDelete={() => this.props.handleDelete(text.id)}
-            handleEdit={() => this.props.handleEdit(text.text)}
+            handleEdit={() => this.props.handleEdit(text.text, text.id)}
             increment={() => this.props.increment(text.id)}
             decrement={() => this.props.decrement(text.id)}
+            itemDelete={this.props.itemDelete}
           />
         ))}
       </div>

@@ -166,8 +166,8 @@ html {
   color: white;
 }
 
-.react {
-  background-image: url(./components/img/react-logo.png);
+.game {
+  background-image: url(./components/img/silver-and-black-laptop-computer-1229861.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -176,8 +176,8 @@ html {
   opacity: 0.3;
 }
 
-.java-script {
-  background-image: url(./components/img/js-logo.png);
+.react {
+  background-image: url(./components/img/react-logo.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -190,8 +190,16 @@ html {
   transition: 200ms ease;
   opacity: 1;
 }
+/* My Photos ----------- */
+.container-myphotos {
+  background: white;
+  font-size: 17px;
+  width: 80%;
+  margin: auto;
+}
 
-.java-script:hover {
+
+.game:hover {
   transition: 200ms ease;
   opacity: 1;
 }

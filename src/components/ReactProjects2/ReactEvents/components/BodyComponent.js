@@ -29,7 +29,7 @@ export class BodyComponent extends Component {
             +
           </button>
           <button className="btn-events" onClick={this.props.decrement}
-          style={{background: 'lightcoral'}}
+          style={{background: 'lightcoral'}} onChange={this.props.itemDelete}
           >
             -
           </button>

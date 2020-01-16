@@ -5,7 +5,7 @@ import App from "./ReactEvents/App";
 function JavaScript() {
   return (
     <div className="js">
-      <div class='app-exercise'>
+      <div className='app-exercise'>
         <App />
       </div>
       <Link to="/">Go Back</Link>

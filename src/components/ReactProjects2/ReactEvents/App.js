@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import AddText from "./components/AddText";
 import uuid from "uuid";
-import './App.css'
+import "./App.css";
 
 export class App extends Component {
   state = {
@@ -18,11 +18,9 @@ export class App extends Component {
     title: ""
   };
 
- 
-
   render() {
     return (
-      <div className='container-app'>
+      <div className="container-app">
         <Header />
         <AddText
           handleSubmit={this.handleSubmit}
@@ -30,6 +28,7 @@ export class App extends Component {
           title={this.state.title}
         />
         <Body
+          itemDelete={this.itemDelete}
           handleReset={this.handleReset}
           texts={this.state.texts}
           handleCheck={this.handleCheck}
@@ -42,9 +41,9 @@ export class App extends Component {
     );
   }
 
-   // AddText component -------
+  // AddText component -------
 
-   addText = () => {
+  addText = () => {
     const newText = {
       text: this.state.title,
       id: uuid.v4(),
@@ -74,9 +73,15 @@ export class App extends Component {
 
   // Body component -------------
 
-  handleEdit = title => {
+  itemDelete = () => {
     this.setState({
-      texts: [...this.state.texts.filter(text => text.text !== title)]
+      texts: [...this.state.texts.filter(text => text.counter = 0)]
+      });
+  };
+
+  handleEdit = (title, id) => {
+    this.setState({
+      texts: [...this.state.texts.filter(text => text.id !== id)]
     });
     this.setState({
       title
@@ -115,9 +120,7 @@ export class App extends Component {
         return text;
       })
     });
-  }
-    
-    
+  };
 
   decrement = id => {
     this.setState({
@@ -129,7 +132,6 @@ export class App extends Component {
       })
     });
   };
-
 }
 
 export default App;

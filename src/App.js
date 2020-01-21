@@ -4,7 +4,6 @@ import './App.css';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Form from './components/Form';
-import MyPhotos from './components/MyPhotos';
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       <Header />
       <AboutMe />
       <Projects />
-      <MyPhotos />
       <Form />
     </div>
   );

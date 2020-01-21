@@ -37,6 +37,7 @@ export class App extends Component {
     this.setState({
       number: ""      
     });
+    console.log(randomNum);
   };
 
   messageGameover = randomNum => {
@@ -117,7 +118,7 @@ export class App extends Component {
             type="number"
             placeholder={this.state.max}
           />
-          <p>{this.state.message}</p>
+          <div>{this.state.message}</div>
         </div>
         <a href="/">Go Back</a>
       </div>
